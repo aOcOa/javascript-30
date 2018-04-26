@@ -1,0 +1,37 @@
+:root{
+    --bg-color: gainsboro;
+    --x-offset: 0px;
+    --y-offset: 0px;
+    --blur-offset: 2px;
+    --spread-offset: 0px;
+    --shadow-color: black;
+
+}
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--bg-color);
+   
+}
+.image{
+    display: block;
+    margin: 2% auto;
+    width: 400px;
+     box-shadow: var(--x-offset) var(--y-offset) var(--blur-offset)  var(--spread-offset) var(--shadow-color);
+}
+
+.customInputs{
+    text-align: center;
+}
+.customInput-name{
+    margin-top:12px;
+    margin-bottom:2px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: gray;
+    display: block;
+}

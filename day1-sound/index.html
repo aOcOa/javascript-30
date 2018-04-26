@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PRESS THIS</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="../common/normalize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="keys">
+            <div class="keys-single" data-keycode="65">
+                <span class="keys-hint">A</span>
+                <span class="keys-sound">boom</span>
+            </div>
+            <div class="keys-single" data-keycode="83">
+                <span class="keys-hint">S</span>
+                <span class="keys-sound">clap</span>
+            </div>
+            <div class="keys-single" data-keycode="68">
+                <span class="keys-hint">D</span>
+                <span class="keys-sound">hihat</span>
+            </div>
+            <div class="keys-single" data-keycode="70">
+                <span class="keys-hint">F</span>
+                <span class="keys-sound">kick</span>
+            </div>
+            <div class="keys-single" data-keycode="71">
+                <span class="keys-hint">G</span>
+                <span class="keys-sound">openhat</span>
+            </div>
+            <div class="keys-single" data-keycode="72">
+                <span class="keys-hint">H</span>
+                <span class="keys-sound">ride</span>
+            </div>
+            <div class="keys-single" data-keycode="74">
+                <span class="keys-hint">J</span>
+                <span class="keys-sound">snare</span>
+            </div>
+            <div class="keys-single" data-keycode="75">
+                <span class="keys-hint">K</span>
+                <span class="keys-sound">tink</span>
+            </div>
+            <div class="keys-single" data-keycode="76">
+                <span class="keys-hint">L</span>
+                <span class="keys-sound">tom</span>
+            </div>
+        </div>
+        <div class="sound-container">
+            <audio src="./sounds/tom.wav" class="sounds-single" data-keycode="65">
+            <audio src="./sounds/boom.wav" class="sounds-single" data-keycode="83">
+            <audio src="./sounds/clap.wav" class="sounds-single" data-keycode="68">
+            <audio src="./sounds/hihat.wav" class="sounds-single" data-keycode="70">
+            <audio src="./sounds/kick.wav" class="sounds-single" data-keycode="71">
+            <audio src="./sounds/openhat.wav" class="sounds-single" data-keycode="72">
+            <audio src="./sounds/ride.wav" class="sounds-single" data-keycode="74">
+            <audio src="./sounds/snare.wav" class="sounds-single" data-keycode="75">
+            <audio src="./sounds/tink.wav" class="sounds-single" data-keycode="76">
+        </div>
+        <video src="./er.mp4" class="main-bg" autoplay loop muted></video>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

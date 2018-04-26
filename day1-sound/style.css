@@ -1,0 +1,44 @@
+.main-bg{
+    width: 100%;
+    filter: grayscale(100%) opacity(.9);
+    position: absolute;
+    z-index: 1;
+}
+.keys{
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.keys-single{
+    width: 85px;
+    display: inline-block;
+    height: 85px;
+    border: 2px solid white;
+    margin: 0 16px;
+    color: white;
+    background-color: rgba(0,0,0,.6);
+    transform: scale(1);
+    transition: all .1s;
+}
+.keys-single.is-active{
+    border: 2px solid aqua;
+    transform: scale(1.1);
+    box-shadow: 0 0 7px 0px cyan;
+}
+.keys-hint{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+}
+.keys-sound,.keys-hint{
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 2px;
+}
+.keys-sound{
+    font-weight: 600;
+    color: aqua;
+}
