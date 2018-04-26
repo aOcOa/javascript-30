@@ -1,0 +1,1 @@
+A practice folder for javascript 30 days.
