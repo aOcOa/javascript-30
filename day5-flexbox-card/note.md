@@ -1,0 +1,1 @@
+- every transition property will trigger 'transitionend'.
