@@ -1,0 +1,1 @@
+- some / every / find / findIndex  methods of array
