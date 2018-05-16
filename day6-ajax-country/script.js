@@ -12,7 +12,7 @@ const app = {
   handleSearch(evt) {
     const keyword = evt.target.value;
     const result = this.findFilteredCountry(this.countriesData, keyword);
-    if(result.length > 1){
+    if (result.length > 0) {
       this.appendResult(result);
     }
   },
