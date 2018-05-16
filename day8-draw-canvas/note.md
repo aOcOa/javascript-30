@@ -1,0 +1,16 @@
+- canvas : width / height
+- ctx (context) : 
+  - strokeStyle
+  - lineWidth 
+  - lineJoin 
+  - lineCap 
+  - beginPath() 
+  - moveTo() 
+  - stroke()
+- event: 
+  - mousedown 
+  - mousemove
+  - mouseup
+  - mouseleave (leave the canvas or specific container)
+- use hsl property to change color easily.
+- use 'direction' flag to control increment and decrement of line width.
